@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="shortcut icon" href="/images/favicon.png" type="image/x-icon" />
+    <!-- Styles -->
+    <link rel="stylesheet" href="/css/reset.css" />
+    <link rel="stylesheet" href="/css/style.css" />
+    <!-- Fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Mali:wght@300;400;700&display=swap"
+      rel="stylesheet"
+    />
+    <!-- Scripts -->
+    <script src="script.js" defer></script>
+    <title>Weather</title>
+  </head>
+  <body>
+    <main>
+      <div class="card">
+        <div class="card-search flex">
+          <input type="text" placeholder="Enter a city..." />
+          <button class="search-btn">
+            <img src="/images/search.png" class="search-img" />
+          </button>
+        </div>
+        <div class="weather-info-wrapper">
+          <img src="/images/clouds.png" class="weather-img" />
+          <div class="temperature">22 C</div>
+          <div class="city">London</div>
+        </div>
+        <div class="weather-air-wrapper flex">
+          <div class="humidity-wrapper">
+            <div class="humidity flex">
+              <img src="/images/humidity.png" />
+              <div class="air-info">50%</div>
+            </div>
+            <p>Humidity</p>
+          </div>
+          <div class="wind-wrapper">
+            <div class="wind flex">
+              <img src="/images/wind.png" />
+              <div class="air-info">25 km/h</div>
+            </div>
+            <p>Wind Speed</p>
+          </div>
+        </div>
+      </div>
+    </main>
+  </body>
+</html>
