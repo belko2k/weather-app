@@ -22,7 +22,11 @@
     <main>
       <div class="card">
         <div class="card-search flex">
-          <input type="text" placeholder="Enter a city..." />
+          <input
+            class="search-input"
+            type="text"
+            placeholder="Enter a city..."
+          />
           <button class="search-btn">
             <img src="/images/search.png" class="search-img" />
           </button>
@@ -34,18 +38,18 @@
         </div>
         <div class="details flex">
           <div class="humidity-wrapper">
+            <h3>Humidity</h3>
             <div class="humidity flex">
               <img src="/images/humidity.png" />
-              <p class="air-info">50%</p>
+              <p class="air-info humidity-data">50%</p>
             </div>
-            <h3>Humidity</h3>
           </div>
           <div class="wind-wrapper">
+            <h3>Wind Speed</h3>
             <div class="wind flex">
               <img src="/images/wind.png" />
-              <p class="air-info">25 km/h</p>
+              <p class="air-info wind-data">25 km/h</p>
             </div>
-            <h3>Wind Speed</h3>
           </div>
         </div>
       </div>
