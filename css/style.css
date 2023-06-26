@@ -28,8 +28,8 @@ main {
 
 .card {
   width: 475px;
-  background: rgba(99, 99, 99, 0.8);
-  backdrop-filter: saturate(180%) blur(5px);
+  background: rgba(155, 155, 155, 0.6);
+  backdrop-filter: blur(5px);
   padding: 2rem;
   border-radius: 1rem;
 }
@@ -43,6 +43,10 @@ main {
   border-radius: 100vw;
   font-size: var(--fs-500);
   padding-left: 1.25rem;
+}
+
+.card-search input:focus {
+  outline: none;
 }
 
 .search-btn {
