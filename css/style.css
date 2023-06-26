@@ -35,7 +35,7 @@ main {
 }
 
 .card-search {
-  gap: 1.25rem;
+  justify-content: space-between;
 }
 
 .card-search input {
@@ -81,12 +81,12 @@ main {
   margin-block: 2rem 3rem;
 }
 
-.weather-air-wrapper {
+.details {
   justify-content: space-between;
   padding-inline: 1rem;
 }
 
-.weather-air-wrapper img {
+.details img {
   aspect-ratio: 1;
   object-fit: contain;
   width: 3.5rem;
@@ -96,7 +96,11 @@ main {
   font-size: var(--fs-500);
 }
 
-.weather-air-wrapper p {
+.details p {
+  font-size: var(--fs-500);
+}
+
+.details h3 {
   margin-top: 1rem;
   font-size: var(--fs-500);
 }
